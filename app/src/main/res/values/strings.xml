@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">ProjectFinal</string>
+    <string name="os">Operating Systems</string>
+    <string name="os_teacher">Avi Silberschatz</string>
+    <string name="algorithm_teacher">Ronald Rivest</string>
+    <string name="algorithm">Algorithms</string>
+    <string name="data_structures">Data Structures</string>
+    <string name="data_teacher">Aaron M.</string>
+    <string name="discrete_maths">Discrete Mathematics</string>
+    <string name="maths_teacher">Kenneth Rosen</string>
+    <string name="microprocessor">Microprocessors</string>
+    <string name="micro_teacher">Grant McFarland</string>
+    <string name="neural_network">Neural Network</string>
+    <string name="neural_teacher">James Anderson</string>
+    <string name="profile_name">Aishwarya J Panampilly</string>
+    <string name="profile_reg">QWER098973</string>
+    <string name="profile_batch">S5 CSE</string>
+    <string name="blurb_one">Registration for the End Semester Exams has begun. Last date for registration is 17/10/2022</string>
+    <string name="blurb_two">\"Prize distribution ceremony for the Inter college basketball championships will be held on 22/10/2022 \"</string>
+    <string name="blurb_three">Startup Mission for B.Tech Final Year students will begin on 20/10/2022</string>
+</resources>
