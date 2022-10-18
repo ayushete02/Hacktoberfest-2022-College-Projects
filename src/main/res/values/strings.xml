@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">MAP_LAB2</string>
+    <string-array name="Freq">
+        <item>Daily</item>
+        <item>Weekly</item>
+        <item>Monthly</item>
+        <item>Quarterly</item>
+    </string-array>
+
+    <string-array name="intrests">
+        <item>Java</item>
+        <item>HTML</item>
+        <item>CSS</item>
+        <item>Javascript</item>
+        <item>UI/UX</item>
+        <item>Graphic Designing</item>
+    </string-array>
+</resources>
