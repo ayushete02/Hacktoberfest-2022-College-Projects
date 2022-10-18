@@ -27,13 +27,17 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
   <h3>All Projects implemented for education</h3>
 </div>
 
+```yarn 
+Contribute your Valid College Projects here and earn one merge
+```
+
 We are making this contribution so that our next generation of students can review our projects and make some changes to them so they can submit their assignments on time.
 
-## Getting Started
+# Getting Started
 
 Read how to make your [First Contributon](FirstContribute.md) before you start.
 
-## List of Projects
+# List of Projects
 
 Add your Project list here
 - [flight_booking_java](flight_booking_java)
@@ -61,3 +65,4 @@ Add your Project list here
 
 
 # [Get Started](Getstart.md)
+[Click here](Getstart.md)
