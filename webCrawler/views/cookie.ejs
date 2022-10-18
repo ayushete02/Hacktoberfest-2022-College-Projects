@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Cookie Report</title>
+    <link rel="stylesheet" href="cookie.css">
+  </head>
+  <body>
+    <div class='bottom-left'>
+
+        
+    
+      </div>
+      <div class='bottom-right'>
+        
+      </div>
+    </div>
+    
+    
+    <header class="mainHeader">
+    
+      <nav>
+        <h1 style="text-align: center;">Cookie Report</h1>
+      </nav>
+    </header>
+    
+    <div class="mainContent">
+    
+      <div class="content">
+        <% let a=0%>
+        <%CookieData.forEach(function(cookie){%>
+            <article class="topcontent">
+                <header>
+                  <h2><a href="#">Cookie Name</a><%=cookie.name%></h2>
+                </header>
+          
+          
+                <footer>
+                  <p class="post-info">Cookie Value: <%=cookie.value%></p>
+                </footer>
+          
+                <content>
+                  <p>Domain: <%=cookie.domain%></p>
+                  <p>Priority: <%=cookie.priority%></p>
+                  <p>Source Port: <%=cookie.sourcePort%></p>
+                </content>
+          
+              </article>
+          
+            <%a++%>
+        <%})%>
+      </div>
+    </div>
+    
+    <aside class="top-sidebar">
+      <article>
+          <h2>Cookie Policy :</h2>
+        <% if(consent){ %>
+            <h1>Present</h1>
+          <% } else{ %>  
+            <h1>Not Present</h1>
+         <% } %>
+        
+      </article>
+    </aside>
+    
+    
+    <aside class="middle-sidebar">
+    
+      <article>
+          <h2>Total Cookies</h2>
+          <p><%=Total%></p>
+        <h2>No. of Session Cookies</h2>
+        <p><%=Session%></p>
+        
+      </article>
+    </aside>
+    <footer class="mainFooter">
+      <p>
+        
+      </p>
+    </footer>
+  </body>
+</html>
+
+
+
+    
+       
+    

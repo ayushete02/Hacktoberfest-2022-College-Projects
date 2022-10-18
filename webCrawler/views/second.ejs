@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Second Page</title>
+    <link rel="stylesheet" href="second.css">
+  </head>
+  <body>
+      <h1 id="Main">Select The Report You Want</h1>
+	<form action="/ssl" method="post" id="sslForm">
+   <button id="ssl" onclick="sslClick()" >Get SSL Report</button> 
+    </form>
+
+    <form action="/cookie" method="post" id="cookieForm" >
+        <button id="cookie" onclick="sslClick()">Get Cookie Report</button>
+    </form>
+
+    <form action="/ada" method="post" id="adaForm">
+        <button id="ada" onclick="sslClick()">Get ADA compliance Report</button>
+    </form>
+  </body>
+  <script>
+      function sslClick(){
+          document.getElementById("Main").innerHTML="Loading....Please Wait";
+      }
+  </script>
+</html>

@@ -1,0 +1,55 @@
+body{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    height: 100vh;
+}
+#ssl{
+    height: 50px;
+    width: 550px;
+    border-radius: 50px;
+    font-size: 30px;
+    border: 0px white;
+    color: white;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+#sslForm{
+    position: relative;
+    top: 15vh;
+    text-align: center;
+}
+#cookieForm{
+    position: relative;
+    top: 20vh;
+    text-align: center;
+}
+#adaForm{
+    position: relative;
+    top: 25vh;
+    text-align: center;
+}
+#cookie{
+    height: 50px;
+    width: 550px;
+    
+    border-radius: 50px;
+    font-size: 30px;
+    border: 0px white;
+    color: white;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+#ada{
+    height: 50px;
+    width: 550px;
+    border-radius: 50px;
+    font-size: 30px;
+    border: 0px white;
+    color: white;
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+}
+h1{
+   color: white;
+   font-size: 48px;
+   text-align: center;
+}
+button:hover{
+    cursor: pointer;
+}

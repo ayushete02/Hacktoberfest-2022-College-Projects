@@ -1,0 +1,45 @@
+body{
+    background-image: linear-gradient(to top, #37ecba 0%, #72afd3 100%);
+    background-repeat: no-repeat;    
+    overflow-x: hidden;
+}
+#MainInput{
+    width: 60vw;
+    padding: 25px;
+    height: 50px;
+    border-radius: 50px;
+    border: 2px white solid;
+   font-size: 20px;
+}
+#MainForm{
+    position: relative;
+    left: 20%;
+    top: 40vh;
+}
+#ssl{
+    border-radius: 60px;
+    height: 40px;
+    width: 90px;
+}
+#cookie{
+    border-radius: 60px;
+    height: 40px;
+    width: 150px;
+}
+#ADA{
+    border-radius: 60px;
+    height: 40px;
+    width: 120px;
+}
+#Report{
+    height: 40px;
+    width: 120px;
+    border-radius: 30px;
+    border: 0px solid white;
+    color: white;
+    font-size: 15px;
+    position: relative;
+    left: 25%;
+    top: 20px;
+    background-image: linear-gradient(to top, #c471f5 0%, #fa71cd 100%);
+}
