@@ -45,7 +45,7 @@ Add your Project list here
 
 <hr>
 
-## Contributors of `Hacktoberfest 2022`
+## Contributors of `Hacktoberfest-2022-College-Projects`
 
 <div align="center">
 <a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects">
@@ -54,5 +54,5 @@ Add your Project list here
   
   </div>
 
-  
+
 # [Get Started](Getstart.md)
