@@ -1,0 +1,40 @@
+body{
+ text-align: center;
+ font-size: 4rem;
+ background-color: #EEEEEE;
+ color: #444444;
+}
+.btn{
+  height: 70px;
+  background-color: #28FFBF;
+  border: 0;
+  border-radius: 20px;
+  font-size: 2rem;
+}
+.goback{
+  position: relative;
+  top:250px;
+}
+.btn:hover{
+  cursor: pointer;
+}
+img{
+  width: 30%;
+}
+@media screen and (max-width: 480px) {
+  .btn{
+    height: 70px;
+    font-size: 1.5rem;
+  }
+  .main{
+    left: 0;
+    position: relative;
+    overflow-x: hidden;
+  }
+  body{
+    font-size: 3rem;
+  }
+  img{
+    width: 100%;
+  }
+}

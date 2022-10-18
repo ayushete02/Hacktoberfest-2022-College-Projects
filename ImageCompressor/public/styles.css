@@ -1,0 +1,52 @@
+body{
+  width: auto;
+  background-color: lightblue;
+}
+.upload{
+  text-align: center;
+}
+#image{
+  visibility: hidden;
+  width: auto;
+}
+form{
+  overflow: hidden;
+}
+label{
+background-color:#7C83FD;
+ text-align: center;
+ font-size: 2.7rem;
+ color: white;
+ border-radius: 20px;
+ width: 80%;
+}
+label:hover{
+  cursor: pointer;
+}
+.ubtn{
+  height: 50px;
+  width: 50%;
+  border: 0;
+  border-radius: 20px;
+  background-color: #50CB93;
+  font-weight: bolder;
+  color: white;
+  width: 25%;
+}
+@media only screen and (max-width: 600px) {
+  label{
+    font-size: 2rem;
+  }
+}
+.heading{
+  text-align: center;
+}
+.inst{
+  text-align:center;
+  border: 2px dashed ;
+  width: 80%;
+  margin-left: 10%;
+}
+.inst-head{
+  font-size: 1.5rem;
+}

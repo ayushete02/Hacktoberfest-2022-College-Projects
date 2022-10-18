@@ -1,0 +1,48 @@
+body{
+  margin: 0;
+  background-color: #2C394B;
+  overflow-y: hidden;
+}
+.nav{
+  background-color: #FFD369;
+  text-align: center;
+  height: 200px;
+  font-size: 2rem;
+}
+h1{
+  position: relative;
+  top:15%;
+}
+#hen{
+  color: white;
+}
+.main{
+  text-align: center;
+}
+form{
+  text-align: center;
+}
+.click{
+margin-top: 1.8%;
+font-size: 2rem;
+background-color: green;
+border: 0;
+border-radius: 15px;
+}
+@media (max-width:980px) {
+  img{
+    margin-top: 100px;
+    width: 100%;
+  }
+  .click{
+    font-size: 3rem;
+    border: 0;
+    position: relative;
+    top: 20px;
+    border-radius: 35px;
+  }
+  #hen{
+    position: relative;
+    top:20px;
+  }
+}
