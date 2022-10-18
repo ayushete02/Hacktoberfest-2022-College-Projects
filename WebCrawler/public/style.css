@@ -1,0 +1,76 @@
+body{
+    background-color: #15133C !important;
+    margin: 20px !important;
+    color: white;
+}
+#canvas{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:1;
+  margin-left: 120px;
+  margin-top: 20px;
+}
+
+#video{
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  z-index:0;
+  margin-left: 120px;
+  margin-top: 20px;
+  border: 10px double #F1EEE9;
+  border-radius: 10%;
+}
+
+.valueDisplay{
+  position: relative;
+  margin-left: 865px;
+  color: #fff;
+}
+
+.Slider{
+  position: relative;
+  margin-top: 4px;
+  margin-left: 860px;
+  margin-bottom: 4px;
+}
+/* button{
+  position: relative;
+  top: 500px;
+
+} */
+/* #undo_button{
+  position: relative;
+  top: 600px;
+} */
+.try{
+  position: relative;
+  top: 510px;
+  position: relative;
+  left: 140px;
+  
+  margin-right: 15px;
+}
+.filter{
+  font-size: xx-large;
+  border-radius: 80%;
+  border: 10px double #F806CC ;
+  position: relative;
+  top: 660px;
+  left: -400px;
+  margin-left: 10px;
+}
+img{
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+  
+}
+button{
+ 
+}
+
+
+.Slider::-webkit-slider-thumb {
+}
