@@ -27,10 +27,8 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
   <h3>All Projects implemented for education</h3>
 </div>
 
-```yarn 
-Get Goodies👕 from HacktoberFest 2022 after a 
-successful 4 merge by submitting your valid college 
-projects here. and also get chance to win Cash💰 Prize
+```
+Get Goodies👕 from HacktoberFest 2022 after a successful 4 merge by submitting your valid college projects here and also get chance to win Cash💰 Prize
 ```
 
 We are making this contribution so that our next generation of students can review our projects and make some changes to them so they can submit their assignments on time.
