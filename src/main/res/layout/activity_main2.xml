@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:paddingHorizontal="10dp"
+    tools:context=".MainActivity2">
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center"
+        android:text="Details:"
+        android:textSize="25dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold" />
+    <TextView
+        android:id = "@+id/textview1"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_marginBottom="10dp"
+        android:textSize="20dp"
+        android:layout_gravity = "center" />
+    <TextView
+        android:id = "@+id/textview2"
+        android:layout_width = "match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_height = "wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity = "center" />
+    <TextView
+        android:id = "@+id/textview3"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity = "center" />
+    <TextView
+        android:id = "@+id/textview4"
+        android:textSize="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center" />
+    <TextView
+        android:id = "@+id/textview5"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity = "center" />
+    <TextView
+        android:id = "@+id/textview6"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:textSize="20dp"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center" />
+    <TextView
+        android:id = "@+id/textview7"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:layout_height = "wrap_content"
+        android:textSize="20dp"
+        android:layout_gravity = "center" />
+    <ListView
+        android:id = "@+id/textview8"
+        android:layout_marginBottom="10dp"
+        android:layout_width = "match_parent"
+        android:textSize="20dp"
+        android:layout_height = "wrap_content"
+        android:layout_gravity = "center" />
+
+</LinearLayout>

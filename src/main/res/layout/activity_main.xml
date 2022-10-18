@@ -1,0 +1,218 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NEWSLETTER REGISTRATION FORM"
+        android:textAlignment="center"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_below="@id/heading1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name:"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_alignBaseline="@id/entername"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/entername"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading1"
+        android:layout_alignStart="@id/name"
+        android:layout_toEndOf="@id/name"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/emailid"
+        android:layout_below="@id/name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email id:"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="23dp" />
+
+
+    <EditText
+        android:id="@+id/entereid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/entername"
+        android:layout_alignStart="@id/emailid"
+        android:layout_marginLeft="90dp"
+        android:layout_marginRight="10dp"
+        />
+
+    <TextView
+        android:id="@+id/mob"
+        android:layout_below="@id/emailid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mob:"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/entermob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mob"
+        android:layout_alignStart="@id/mob"
+        android:layout_marginStart="65dp"
+        android:layout_marginTop="-40dp"
+        android:layout_marginEnd="10dp"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/dob"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mob"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        android:inputType="date"
+        android:text="DOB:"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/textviewdob"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mob"
+        android:layout_marginStart="65dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="6dp"
+        android:inputType="date"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/gender"
+        android:layout_below="@id/textviewdob"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GENDER:"
+        android:layout_marginLeft="8dp"
+        android:layout_marginTop="50dp"
+        android:textSize="23dp" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mob"
+        android:layout_marginLeft="260dp"
+        android:layout_marginTop="20dp"
+        android:text="AGE:"
+        android:textSize="23dp" />
+
+    <EditText
+        android:id="@+id/editage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/mob"
+        android:layout_marginLeft="320dp"
+        android:textSize="23dp" />
+
+
+    <RadioGroup
+        android:id="@+id/rgrp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textviewdob"
+        android:orientation="vertical">
+
+        <RadioButton android:id="@+id/b1"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="MALE"
+            android:textSize="16dp"
+            android:layout_marginLeft="100dp"/>
+
+        <RadioButton android:id="@+id/b2"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="FEMALE"
+            android:textSize="16dp"
+            android:layout_marginTop="-15dp"
+            android:layout_marginLeft="100dp"/>
+
+        <RadioButton android:id="@+id/b3"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="OTHERS"
+            android:textSize="16dp"
+            android:layout_marginTop="-15dp"
+            android:layout_marginLeft="100dp"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/listmenu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="FREQUENCY: "
+        android:textSize="23dp" />
+
+
+    <Spinner
+        android:id="@+id/spinner1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/gender"
+        android:layout_alignStart="@id/listmenu"
+        android:layout_marginStart="139dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="40dp" />
+
+    <ListView
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_below="@id/spinner1"
+        android:layout_marginLeft="130dp"
+        android:layout_marginTop="17dp" />
+
+    <TextView
+        android:id="@+id/intrests"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/listmenu"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="INTERESTS: "
+        android:textSize="23dp" />
+
+
+    <CheckBox
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/boxcheck"
+        android:layout_marginTop="70dp"
+        android:layout_below="@id/intrests"
+        android:text="I agree to the terms and conditions"/>
+
+    <Button
+        android:id="@+id/s1"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/boxcheck"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="16dp"
+        android:text="SUBMIT" />
+
+</RelativeLayout>
