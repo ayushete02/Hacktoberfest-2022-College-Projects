@@ -28,7 +28,7 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
 </div>
 
 ```yarn 
-Contribute your Valid College Projects here and earn one merge
+Get Goodies👕 from HacktoberFest 2022 after a successful 4 merge by submitting your valid college projects here.
 ```
 
 We are making this contribution so that our next generation of students can review our projects and make some changes to them so they can submit their assignments on time.
