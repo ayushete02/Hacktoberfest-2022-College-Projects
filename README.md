@@ -42,7 +42,10 @@ Add your Project list here
 - [Drumkit-main](Drumkit-main)
 - [tours_and_travels](tours_and_travels)
 - [WebCrawler](WebCrawler)
-
+- [Madhya Pradesh Tourism Website](Madhya_Pradesh_Tourism_Website)
+- [Paint GUI and Digit Recognition](Paint_GUI_and_Digit_Recognition)
+- [Department Store Bill generation Project](Department_Store_Bill_generation_Project)
+- [Calculator Using html,css and js](Calculator_Using_html,css_and_js)
 <hr>
 
 ## Contributors of `Hacktoberfest-2022-College-Projects`
