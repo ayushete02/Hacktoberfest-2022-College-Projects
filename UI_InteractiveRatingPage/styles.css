@@ -1,0 +1,169 @@
+/* Orange: hsl(25, 97%, 53%)
+
+### Neutral
+
+- White: hsl(0, 0%, 100%)
+- Light Grey: hsl(217, 12%, 63%)
+- Medium Grey: hsl(216, 12%, 54%)
+- Dark Blue: hsl(213, 19%, 18%)
+- Very Dark Blue: hsl(216, 12%, 8%) */
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul{
+    list-style-type: none;
+}
+
+body{
+    font-family: 'Overpass', sans-serif;
+    font-size: 15px;
+    background-color: #2C3333;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+h1{
+    color: #fff;
+    margin: 2rem 0 1rem;
+}
+
+p{
+    line-height: 1.5;
+    color: #A5C9CA;
+}
+
+h2{
+    color: #fff;
+    margin-bottom: 1rem;
+}
+
+/* li button {
+    width: 3rem;
+    height: 3rem;
+    border-radius: 50%;
+    border: none;
+    background-color: ;
+    color:#E7F6F2;
+    padding-top: 0.2rem;
+} */
+
+li button{
+    background-color: #395B64;
+    width: 3rem;
+    height: 3rem;
+    border: none;
+    border-radius: 50%;
+    color: #A5C9CA;
+    cursor: pointer;
+}
+
+
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}
+
+.btn:hover{
+    background-color: #E7F6F2;
+}
+
+.btn:focus{
+    background-color: #2C3333;
+}
+
+.btn-submit{
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 0.1rem;
+    background-color: #EA5656;
+    width: 100%;
+    padding: 0.8rem 0 0.6rem;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.btn-submit:hover{
+    background-color: #fff;
+    color: #EA5656;
+}
+
+.container-main, .thankyou {
+    background-color: #395B64;
+    padding: 1.5rem;
+    border-radius: 1rem;
+    max-width: 450px;
+}
+
+
+.icon-star{
+    color: #EA5656;
+    background-color: #A5C9CA;
+    border-radius: 50%;
+    padding: 0.25rem;
+    margin-top: 2rem;
+}
+
+button{
+    font-family: inherit;    /*inherits font family of body*/
+}
+
+.selected{
+    background-color: #4c6f70;
+    color: #E7F6F2;
+    border-radius: 30px;
+    padding: 0.2rem 0.5rem 0;
+    font-size: 0.9rem;
+    margin-bottom: 2rem;
+}
+
+
+.thankyou{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.thankyou img{
+    display: block;
+    margin: 0 auto 2rem;
+}
+
+.thankyou p{
+    margin-bottom: 2rem;
+}
+
+.hidden1, .hidden2, .hidden3, .hidden4, .hidden5  {
+    display: none;
+}
+
+
+
+.attribution {
+    font-size: 14px;
+    text-align: center;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+ }
