@@ -51,6 +51,7 @@ Add your Project list here
 - [Department Store Bill generation Project](Department_Store_Bill_generation_Project)
 - [Calculator Using html,css and js](Calculator_Using_html,css_and_js)
 - [olx-clone-for_dracula using html, css and js](olx-clone-for_dracula)
+- [WellEazy Virtual Health assistant](Welleazy-health-assistant)
 <hr>
 
 ## Contributors of `Hacktoberfest-2022-College-Projects`
