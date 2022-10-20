@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "777347299696",
+    "firebase_url": "https://smart-railway-qr.firebaseio.com",
+    "project_id": "smart-railway-qr",
+    "storage_bucket": "smart-railway-qr.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:777347299696:android:ba4f42c0cd6cfada5e37b5",
+        "android_client_info": {
+          "package_name": "com.simplicitydev.smartrailwayqr"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "777347299696-bt8r7ltchvqafkvgvfu5e1cd6tptjlqr.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.simplicitydev.smartrailwayqr",
+            "certificate_hash": "ac0f7321174a7803f679151ad5ed9266449a0b14"
+          }
+        },
+        {
+          "client_id": "777347299696-h7890tjpgtr2bv4jgbuqakavtb4v2uhh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuw8ea0xIrFcZAdz9nBoKNuwxiUqo1nGg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "777347299696-h7890tjpgtr2bv4jgbuqakavtb4v2uhh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

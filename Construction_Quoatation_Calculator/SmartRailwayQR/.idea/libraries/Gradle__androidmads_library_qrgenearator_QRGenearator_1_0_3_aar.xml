@@ -1,0 +1,15 @@
+<component name="libraryTable">
+  <library name="Gradle: androidmads.library.qrgenearator:QRGenearator:1.0.3@aar">
+    <CLASSES>
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/4e0d709b1de97340bd9ac97b87d1475e/QRGenearator-1.0.3/AndroidManifest.xml" />
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/4e0d709b1de97340bd9ac97b87d1475e/QRGenearator-1.0.3/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/transforms-2/files-2.1/4e0d709b1de97340bd9ac97b87d1475e/QRGenearator-1.0.3/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/modules-2/files-2.1/androidmads.library.qrgenearator/QRGenearator/1.0.3/6d5ba51325848da403567811ac218cd181ea8a84/QRGenearator-1.0.3-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/wrapper/dists/gradle-6.1.1-all/caches/modules-2/files-2.1/androidmads.library.qrgenearator/QRGenearator/1.0.3/cb9dc3e8695bb722219985dce3f992ed32f876aa/QRGenearator-1.0.3-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
