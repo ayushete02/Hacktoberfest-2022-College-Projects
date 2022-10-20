@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Smart Railway QR</string>
+
+    <string name="client_id">777347299696-h7890tjpgtr2bv4jgbuqakavtb4v2uhh.apps.googleusercontent.com</string>
+
+    <string-array name="MFS100Ver">
+        <item>41</item>
+        <item>31</item>
+    </string-array>
+
+    <string name="title_activity_preference">Preference</string>
+</resources>

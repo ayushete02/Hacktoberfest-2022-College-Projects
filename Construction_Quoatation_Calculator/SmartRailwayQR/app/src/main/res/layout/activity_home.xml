@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3B3D7C"
+    tools:context=".Home">
+
+
+
+    <android.support.v7.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:cardCornerRadius="32dp"
+        android:elevation="16dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/bg"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="40dp"
+                app:cardBackgroundColor="#2293b6">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="DASHBOARD"
+                    android:textColor="@android:color/white"
+                    style="@style/Base.TextAppearance.AppCompat.Title"
+                    android:textSize="25sp"
+                    android:layout_height="wrap_content"
+                    />
+            </android.support.v7.widget.CardView>
+        <android.support.v7.widget.CardView
+            android:id="@+id/scan_qr"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:elevation="16dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="170dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="16dp"
+            app:cardCornerRadius="15dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#30A052">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Verify Passenger"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="25dp"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/scan"/>
+
+            </RelativeLayout>
+        </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/or"
+                android:textSize="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Or"
+                android:layout_below="@id/scan_qr"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:layout_centerInParent="true"
+                android:layout_marginBottom="20dp"/>
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/gen_qr"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_centerHorizontal="true"
+            android:elevation="16dp"
+            android:layout_below="@id/or"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="16dp"
+            app:cardCornerRadius="15dp">
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#E94E59">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Generate QR\n Code"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="30dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:textSize="25dp"/>
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:layout_centerVertical="true"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginRight="30dp"
+                    android:src="@drawable/gen"/>
+            </RelativeLayout>
+
+        </android.support.v7.widget.CardView>
+
+            <TextView
+                android:id="@+id/result"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="40dp"
+                android:layout_below="@id/gen_qr"
+                android:visibility="invisible"
+                android:textSize="30dp"
+                android:textColor="#000"/>
+
+
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</RelativeLayout>
