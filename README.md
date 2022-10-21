@@ -9,7 +9,7 @@
 Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in the month of October to celebrate the open source community. As part of this 31-day celebration, contributors and open source maintainers are encouraged to work on open source projects and win swag to mark the occasion.
 
 <hr>
-<div align="center">
+<div align="center"> 
 <!-- Title: -->
   <h1><b><a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects">FREE COLLEGE PROJECT - HACKTOBERFEST 2022</a></b></h1>
 <!-- Labels: -->
