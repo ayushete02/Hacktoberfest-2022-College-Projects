@@ -10,10 +10,6 @@
 ## What is Hacktoberfest? 
 Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in the month of October to celebrate the open source community. As part of this 31-day celebration, contributors and open source maintainers are encouraged to work on open source projects and win swag to mark the occasion.
  
-<div align="center"> 
-<hr>
-<div align="center"> 
-
 <hr>
 <div align="center">
 
