@@ -1,25 +1,26 @@
 
 #                                             Hacktoberfest2022
+
 ![image](https://user-images.githubusercontent.com/99472914/192144059-5cd0b329-f238-474b-b475-7385eaa35d05.png) 
 [![Open Source Love](https://firstcontributions.github.io/open-source-badges/badges/open-source-v1/open-source.svg)](https://github.com/firstcontributions/open-source-badges)
+
 [![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 [![Open Source Helpers](https://www.codetriage.com/roshanjossey/first-contributions/badges/users.svg)](https://www.codetriage.com/roshanjossey/first-contributions)
 
-## What is Hacktoberfest?
+## What is Hacktoberfest? 
 Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in the month of October to celebrate the open source community. As part of this 31-day celebration, contributors and open source maintainers are encouraged to work on open source projects and win swag to mark the occasion.
+ 
+<div align="center"> 
 
-<hr>
-<div align="center">
-<!-- Title: -->
   <h1><b><a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects">FREE COLLEGE PROJECT - HACKTOBERFEST 2022</a></b></h1>
 <!-- Labels: -->
   <!-- First row: -->
   <a href="https://gitpod.io/#https://github.com/ayushete02/Hacktoberfest-2022-College-Projects">
     <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square" height="20" alt="Gitpod Ready-to-Code">
-  </a>
+  </a> 
   <a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square" height="20" alt="Contributions Welcome">
-  </a>
+  </a> 
   <img src="https://img.shields.io/github/repo-size/ayushete02/Hacktoberfest-2022-College-Projects.svg?label=Repo%20size&style=flat-square" height="20">
 
  
@@ -45,7 +46,7 @@ Add your Project list here
 - [Construction_Quoatation_Calculator](Construction_Quoatation_Calculator)
 - [Drumkit-main](Drumkit-main)
 - [tours_and_travels](tours_and_travels)
-- [WebCrawler](WebCrawler)
+- [WebCrawler](WebCrawler) 
 - [Madhya Pradesh Tourism Website](Madhya_Pradesh_Tourism_Website)
 - [Paint GUI and Digit Recognition](Paint_GUI_and_Digit_Recognition)
 - [Department Store Bill generation Project](Department_Store_Bill_generation_Project)
@@ -53,7 +54,7 @@ Add your Project list here
 - [olx-clone-for_dracula using html, css and js](olx-clone-for_dracula)
 - [WellEazy Virtual Health assistant](Welleazy-health-assistant)
 - [Smart Railway Qr](App to verify passengers)
-<hr>
+<hr> 
 
 ## Contributors of `Hacktoberfest-2022-College-Projects`
 
