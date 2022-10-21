@@ -16,7 +16,7 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
   <!-- First row: -->
   <a href="https://gitpod.io/#https://github.com/ayushete02/Hacktoberfest-2022-College-Projects">
     <img src="https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod&style=flat-square" height="20" alt="Gitpod Ready-to-Code">
-  </a>
+  </a> 
   <a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects/blob/master/CONTRIBUTING.md">
     <img src="https://img.shields.io/static/v1.svg?label=Contributions&message=Welcome&color=0059b3&style=flat-square" height="20" alt="Contributions Welcome">
   </a> 
