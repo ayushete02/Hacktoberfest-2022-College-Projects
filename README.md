@@ -10,6 +10,9 @@ Hacktoberfest is an annual festival hosted by DigitalOcean that takes place in t
  
 <div align="center"> 
 
+<hr>
+<div align="center">
+
   <h1><b><a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects">FREE COLLEGE PROJECT - HACKTOBERFEST 2022</a></b></h1>
 <!-- Labels: -->
   <!-- First row: -->
