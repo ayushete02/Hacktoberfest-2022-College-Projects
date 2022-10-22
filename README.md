@@ -55,6 +55,7 @@ Add your Project list here
 - [olx-clone-for_dracula using html, css and js](olx-clone-for_dracula)
 - [WellEazy Virtual Health assistant](Welleazy-health-assistant)
 - [Smart Railway Qr](App to verify passengers)
+- [University_Study_App](App for students to stay updated for university)
 <hr> 
 
 ## Contributors of `Hacktoberfest-2022-College-Projects`
