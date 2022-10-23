@@ -62,7 +62,7 @@ Add your Project list here
 <div align="center">
 
 <a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects/graphs/contributors">
-   <img src = "https://contrib.rocks/image?repo=ayushete02/Hacktoberfest-2022-College-Projects"/>
+    <img src = "https://contrib.rocks/image?repo=ayushete02/Hacktoberfest-2022-College-Projects"/>
 </a>
   </div>  
 
