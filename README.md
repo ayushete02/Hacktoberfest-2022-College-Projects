@@ -54,7 +54,7 @@ Add your Project list here
 - [Calculator Using html,css and js](Calculator_Using_html,css_and_js)
 - [olx-clone-for_dracula using html, css and js](olx-clone-for_dracula)
 - [WellEazy Virtual Health assistant](Welleazy-health-assistant)
-- [Smart Railway Qr](App to verify passengers)
+- [Smart Railway Qr](University_Study_App)
 <hr> 
 
 ## Contributors of `Hacktoberfest-2022-College-Projects`
@@ -67,7 +67,7 @@ Add your Project list here
   </div>  
 
 # [Start with First Repo..](FirstContribute.md)
-## [Click here...](FirstContribute.md)
+<button style="padding:10px; width:300px; margin:auto; display:flex; justify-content: center;" ><b>[CLICK HERE](FirstContribute.md)</b></button>
 <hr>
 
 # Getting Started 🤩🤗
