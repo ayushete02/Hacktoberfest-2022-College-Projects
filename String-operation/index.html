@@ -1,0 +1,136 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <title>Spring Operations</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="Style.css">
+
+    <!--JAVASCRIPT CODE-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+
+        //Leftmost vowel in the string
+        function str_vowel() {
+            var chr = "";
+            var str = prompt("Enter the string\n", " ");
+            if (str == " " || str == null) {
+                window.alert("Enter String");
+                return false;
+            }
+            
+            for (var i = 0; i < str.length; i++) {
+            chr = str.charAt(i);
+             if (chr == 'a' || chr == 'e' || chr == 'i' || chr == 'o' || chr == 'u' || chr == 'A' || chr == 'E' || chr == 'I' || chr == 'O' || chr == 'U')
+                break; }
+            if (i < str.length)
+            document.getElementById("display").innerHTML = "String: " + str;
+            document.getElementById("result").innerHTML = "Leftmost vowel : " + chr;
+            pos=i+1;
+            document.getElementById("ab").innerHTML = "Position: " + pos;
+
+        }
+        //Reverse the string
+        function reverse() {
+            var str2 = prompt("Enter the string\n", " ");
+            if (str2 == " " || str2 == null) {
+                window.alert("Enter String");
+                return false;
+            }
+            let reverseResult = "";
+            for (var i = str2.length - 1; i >= 0; i--) {
+                document.getElementById("display").innerHTML = "Original String: " + str2;
+                reverseResult = reverseResult + str2[i];
+                document.getElementById("result").innerHTML = "Reversed String: " + reverseResult;
+            }
+        }
+
+        //Concatenation
+        function concatenate() {
+            var str3 = prompt("Enter string 1:\n", "");
+            var str4 = prompt("Enter string 2:\n", "");
+
+            if ((str3 == " " || str3 == null) && (str4 == " " || str4 == null)) {
+                window.alert("Enter String");
+                return false;
+            }
+            str5 = str3 + str4;
+            document.getElementById("display").innerHTML = "String 1: " + str3;
+            document.getElementById("result").innerHTML = "String 2: " + str4;
+            document.getElementById("ab").innerHTML = "Concatenated String: " + str5;
+        }
+        </script>
+</head>
+
+
+
+<body>     
+    <nav class="navbar navbar-expand-lg bg-light">
+            <div class="container-fluid">
+            <i class="fa-brands fa-creative-commons-nd fa-2x mx-2"></i>
+            <a class="navbar-brand" href="#" >
+                String Operations
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" onclick="reverse()">Reverse</a> 
+                    <li class="nav-item">
+                    <a class="nav-link" onclick="str_vowel()">Vowel</a> 
+                <li class="nav-item">
+                    <a class="nav-link" onclick="concatenate()">Concatenate</a> 
+                    </li>
+                </ul>
+                </div>
+            </div>
+    </nav>
+    <h3 align="center">Choose the String Operations to Perform</h3>
+        <form class="form_items" align="center">
+            <input id="btn" type="button" value="1] Position of the leftmost vowel" onclick="str_vowel()" /><br><br>
+            <input id="btn" type="button" value="2] Reverse a String" onclick="reverse()" /><br><br>
+            <input id="btn" type="button" value="3] Concatenation" onclick="concatenate()" /><br><br>
+
+
+            <p id="display">Click on operation you want to perform! </p>
+            <p id="result">Answer will display here...</p>
+            <p id="ab"> </p>
+        </form> 
+        <footer class="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="footer-col">
+                        <h4>company</h4>
+                        <ul>
+                            <li><a href="#">about us</a></li>
+                            <li><a href="#">our services</a></li>
+                            <li><a href="#">privacy policy</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>get help</h4>
+                        <ul>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">payment options</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-col">
+                        <h4>follow us</h4>
+                        <div class="social-links">
+                            <a href="#"><i class="fab fa-github"></i></a>
+                            <a href="#"><i class="fab fa-twitter"></i></a>
+                            <a href="#"><i class="fab fa-instagram"></i></a>
+                            <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+       </footer>
+</body>
+</html>
