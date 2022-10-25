@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="Gradle: ./app/libs/mantra.mfs100.jar">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/app/libs/mantra.mfs100.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
