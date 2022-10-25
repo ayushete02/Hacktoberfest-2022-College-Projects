@@ -54,7 +54,7 @@ Add your Project list here
 - [Calculator Using html,css and js](Calculator_Using_html,css_and_js)
 - [olx-clone-for_dracula using html, css and js](olx-clone-for_dracula)
 - [WellEazy Virtual Health assistant](Welleazy-health-assistant)
-- [Smart Railway Qr](University_Study_App)
+- [Smart Railway Qr]
 <hr> 
 
 ## Contributors of `Hacktoberfest-2022-College-Projects`
@@ -62,7 +62,7 @@ Add your Project list here
 <div align="center">
 
 <a href="https://github.com/ayushete02/Hacktoberfest-2022-College-Projects/graphs/contributors">
-   <img src = "https://contrib.rocks/image?repo=ayushete02/Hacktoberfest-2022-College-Projects"/>
+    <img src = "https://contrib.rocks/image?repo=ayushete02/Hacktoberfest-2022-College-Projects"/>
 </a>
   </div>  
 
